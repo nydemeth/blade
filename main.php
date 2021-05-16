@@ -97,14 +97,14 @@ body {
   <main class="px-3">
   <form action="create.php">
   <div class="input-group mb-3">
-  <span class="input-group-text">https://8la.de/</span>
+  <span class="input-group-text">8la.de/</span>
   <input type="text" class="form-control" id="short" name="short" value="<?php echo generate_string(); ?>">
 </div>
 <div class="form-floating mb-3 text-dark">
   <input type="text" class="form-control" id="url" name="url" placeholder="https://google.de">
   <label for="url">URL</label>
 </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
+  <button type="submit" class="btn btn-primary">shorten</button>
 </form>
   </main>
   <footer class="mt-auto text-white-50">
